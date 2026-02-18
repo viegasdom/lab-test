@@ -15,7 +15,7 @@ resource "lab" "container_service" {
       title = "Introduction"
 
       page "first" {
-        title = "First"
+        title     = "First"
         reference = resource.page.first
       }
     }
