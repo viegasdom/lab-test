@@ -1,5 +1,5 @@
 resource "lab" "main" {
-  title       = "Import Test D - Updated"
+  title       = "Non-Mono Import D - Edited"
   description = "Testing non-monorepo import"
   layout      = resource.layout.single_panel
 }
